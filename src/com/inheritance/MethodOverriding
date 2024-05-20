@@ -1,0 +1,18 @@
+Method Overriding :
+		1. when you have a method in parent class and the same method in child class also
+		2. with the same name
+		3. with same number of parameters
+		4. with same type of parameters
+		5. with the same sequence of parameters
+		6. Return type also should be the same
+		7. Static methods cannot be overridden, can be inherited
+		8. private methods cannot be overridden, cannot be inherited as well private method is only for that particular class
+				and outside we wont be able to access
+		9. final methods cannot be overridden, can be inherited
+		
+Method overriding is also called run time poly morphism -
+		during compile time compiler is confused as to which method to call
+		during run time it will go the class for which we have created the object - checks the class sign -->
+			if there is an extends keyword it will immediately go to that parent class and check for the caller method
+			then once it finds the respective method it will come back to the child class and check if there is any overridden method
+			if the overridden method is present then it will choose that method
